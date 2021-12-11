@@ -1,6 +1,5 @@
 {
   "binary_download_url_pattern": "https://github.com/cube2222/octosql-plugin-random_data/releases/download/{{version}}/octosql-plugin-random_data_{{version}}_{{os}}_{{arch}}.tar.gz",
-  "readme_url": "https://raw.githubusercontent.com/cube2222/octosql-plugin-random_data/main/README.md",
   "versions": [
     {
       "number": "0.1.0"
