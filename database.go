@@ -72,7 +72,7 @@ func (d *Database) GetTable(ctx context.Context, name string) (physical.Datasour
 		}
 	}
 
-	return &datasourceImpl{
+	return &datasourcePhysical{
 			internalName: internalName,
 		},
 		physical.Schema{
