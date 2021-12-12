@@ -2,6 +2,9 @@
   "binary_download_url_pattern": "https://github.com/cube2222/octosql-plugin-random_data/releases/download/{{version}}/octosql-plugin-random_data_{{version}}_{{os}}_{{arch}}.tar.gz",
   "versions": [
     {
+      "number": "0.1.1"
+    },
+    {
       "number": "0.1.0"
     }
   ]
