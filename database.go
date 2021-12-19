@@ -12,7 +12,7 @@ import (
 	_ "github.com/jackc/pgx/stdlib"
 
 	"github.com/cube2222/octosql/physical"
-	"github.com/cube2222/octosql/plugins/plugin"
+	"github.com/cube2222/octosql/plugins"
 )
 
 var tableInternalNames = map[string]string{
@@ -21,7 +21,7 @@ var tableInternalNames = map[string]string{
 	"users":     "users/random_user",
 }
 
-func Creator(ctx context.Context, configUntyped plugin.ConfigDecoder) (physical.Database, error) {
+func Creator(ctx context.Context, configUntyped plugins.ConfigDecoder) (physical.Database, error) {
 	return &Database{}, nil
 }
 
